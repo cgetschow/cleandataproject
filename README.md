@@ -35,7 +35,7 @@ The run_analysis.R script generates a tidy data set with the average of each ori
 Each row in uci_har_mean_std_average.txt contains the following variables:
 - A text activity label. 
 - An integer identifier of the subject who carried out the experiment.
-- For all observations in the original data set with the activity label and subject identifier, the average of each of the following. These variables are described in features_info.txt in the original data set:
-* Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
-* Triaxial Angular velocity from the gyroscope. 
-* Time and frequency domain variables. 
+- For all observations in the original data set with the activity label and subject identifier, the average of each of the following. (These variables are described in features_info.txt in the original data set):
+  - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+  - Triaxial Angular velocity from the gyroscope. 
+  - Time and frequency domain variables. 
